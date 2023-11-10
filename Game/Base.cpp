@@ -36,14 +36,12 @@ void Base::draw()
 
 void Base::shop(Player& player)
 {
-	if (player.lastPressedKey() != ' ') return; // если не был нажат пробел (вход в меню покупок на базе)
-	if (player.getCoords() != coords) return;  // если мы находимся за пределами базы
+	if (player.lastPressedKey() != ' ') return;
+	if (player.getCoords() != coords) return;
 
 	p_copy = &player;
 	isShopActive = true;
 	menu_id = 0;
-	// отрисовка меню и кнопок магазина (тут можно не вникать в суть, просто для красоты. но можешь попробовать на свой страх и риск :)) 
-	// из важного стоит лишь взглянуть на метод spawn
 	clear();
 	while (isShopActive)
 	{
