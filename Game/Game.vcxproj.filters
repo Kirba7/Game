@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Units">
+      <UniqueIdentifier>{67785ab7-4e79-4ec8-8c84-dfcf8c10be99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Unit">
+      <UniqueIdentifier>{7d23b74d-784a-4a96-9cec-bfa8396972aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Unit types">
+      <UniqueIdentifier>{3fcc6d52-3586-421d-a917-30f8924bc656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Range">
+      <UniqueIdentifier>{44f122cd-9ec8-4c15-a726-b34442a1e005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Range\Archer">
+      <UniqueIdentifier>{53fcc12c-8240-442c-8163-e0e9a23ad48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Range\Crossbower">
+      <UniqueIdentifier>{c55296d2-02ee-48aa-8431-9f4eee953892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Player">
+      <UniqueIdentifier>{6a27865f-04ac-4c29-895a-4dfe388edfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Melee">
+      <UniqueIdentifier>{856033d8-35d9-4083-8aa5-dac9cfc21fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Melee\Swordsman">
+      <UniqueIdentifier>{8ccfbe4f-90d2-436e-8b9a-b661163576ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Melee\Heavy">
+      <UniqueIdentifier>{00741c4d-8ee7-44c6-beb2-65a81822d1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Levels">
+      <UniqueIdentifier>{8646485c-4119-4763-af7a-8d98e976cc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Levels\lvl 1">
+      <UniqueIdentifier>{3317abca-89e0-4166-85ef-19af8b41572f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Levels\lvl 2">
+      <UniqueIdentifier>{3b6732ec-7efd-4b01-89b2-6a25d12534ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units\Spawner">
+      <UniqueIdentifier>{0961ae04-dd29-4455-a154-7b0733c1fe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{fbf3c5b4-1d4f-40a9-8250-ba2cdfc7b435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Base">
+      <UniqueIdentifier>{76aea2fc-2ff4-4716-b9c8-accd1a310a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Field">
+      <UniqueIdentifier>{75218892-dbe7-4474-8560-89713b45a52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Landscape">
+      <UniqueIdentifier>{7dc9d736-97f5-4f0e-8e8b-5ade694e7186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Landscape\Tundra">
+      <UniqueIdentifier>{637ff572-053c-4093-8c7d-d1f3663484cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Landscape\Forest">
+      <UniqueIdentifier>{0af2be88-7704-4fed-9f7e-f061d8323545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Landscape\Desert">
+      <UniqueIdentifier>{ae53d0e8-97f4-473d-8645-f0f27b8bf658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\Landscape\Prototype">
+      <UniqueIdentifier>{f33239f9-4565-4977-b1c4-075d6f90e4a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Units\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Units\Range\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Units\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>Units\Melee\Swordsman</Filter>
+    </ClCompile>
+    <ClCompile Include="Heavy.cpp">
+      <Filter>Units\Melee\Heavy</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossbower.cpp">
+      <Filter>Units\Range\Crossbower</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>World\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>World\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Desert.cpp">
+      <Filter>World\Landscape\Desert</Filter>
+    </ClCompile>
+    <ClCompile Include="Forest.cpp">
+      <Filter>World\Landscape\Forest</Filter>
+    </ClCompile>
+    <ClCompile Include="Tundra.cpp">
+      <Filter>World\Landscape\Tundra</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>World\Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>World\Landscape\Prototype</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Units\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Units\Range\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Units\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>Units\Melee\Swordsman</Filter>
+    </ClInclude>
+    <ClInclude Include="Heavy.h">
+      <Filter>Units\Melee\Heavy</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossbower.h">
+      <Filter>Units\Range\Crossbower</Filter>
+    </ClInclude>
+    <ClInclude Include="Lvl_1.h">
+      <Filter>Units\Levels\lvl 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Lvl_2.h">
+      <Filter>Units\Levels\lvl 2</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Units\Spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="Melee.h">
+      <Filter>Units\Unit types</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>Units\Unit types</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>World\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>World\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Desert.h">
+      <Filter>World\Landscape\Desert</Filter>
+    </ClInclude>
+    <ClInclude Include="Forest.h">
+      <Filter>World\Landscape\Forest</Filter>
+    </ClInclude>
+    <ClInclude Include="Tundra.h">
+      <Filter>World\Landscape\Tundra</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>World\Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>World\Landscape\Prototype</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
