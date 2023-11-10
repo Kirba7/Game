@@ -1,10 +1,10 @@
 #pragma once
 
-#include "Swordsman.h"	//lvl 1
-#include "Archer.h"		//
+#include "Swordsman.h"
+#include "Archer.h"
 
-#include "Heavy.h"		//lvl 2
-#include "Crossbower.h"	//
+#include "Heavy.h"
+#include "Crossbower.h"
 
 class Spawner
 {
