@@ -18,7 +18,7 @@ void Blinking()
 
 int main()
 {
-    std::cout << "\033]2;Game\007"; // заголовок окна
+    std::cout << "\033]2;Game\007";
     Blinking();
 
     int length = 25, 
